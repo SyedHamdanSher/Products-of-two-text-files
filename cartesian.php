@@ -45,8 +45,8 @@ function htb1($y,$filecontents1,$filecontents2,$arr)/*this function is used to c
 $time_start = microtime(true);
 htb1(0,$filecontents1,$filecontents2,$arr); //we start recursion here we assumed that the File1.txt is non-empty
 $time_end = microtime(true);
-$time = $time_end - $time_start;
-$time = ($time_end - $time_start)/1000;
+//$time = $time_end - $time_start;
+$time = ($time_end - $time_start);
 
-echo "computation time in $time miliseconds\n";
+echo "computation time in $time seconds\n";
 ?>
